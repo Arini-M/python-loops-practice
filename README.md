@@ -17,6 +17,7 @@ else:
     print(num, "is not an Armstrong Number")
 
 
+
 # Number Guessing Game
 
 secret_number = 7
@@ -29,3 +30,14 @@ while True:
         break
     else:
         print("Wrong guess. Try again.")
+
+
+
+# Multiplication Tables Generator
+
+num = int(input("Enter a number: "))
+
+print("Multiplication Table of", num)
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
