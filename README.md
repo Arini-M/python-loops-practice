@@ -44,32 +44,9 @@ for i in range(1, 11):
 
 
 
-# Floyd's Triangle
+# Half Pyramid
 
 rows = int(input("Enter number of rows: "))
-
-num = 1
 
 for i in range(1, rows + 1):
-    for j in range(i):
-        print(num, end=" ")
-        num += 1
-    print()
-
-
-
-# Pascal's Triangle
-
-rows = int(input("Enter number of rows: "))
-
-for i in range(rows):
-    num = 1
-
-    for j in range(rows - i - 1):
-        print(" ", end="")
-
-    for j in range(i + 1):
-        print(num, end=" ")
-        num = num * (i - j) // (j + 1)
-
-    print() 
+    print("*" * i)
