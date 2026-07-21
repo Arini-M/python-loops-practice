@@ -8,7 +8,7 @@ sum_of_digits = 0
 
 while temp > 0:
     digit = temp % 10
-    sum_of_digits += digit ** 3
+    sum_of_digits += digit ** 3 
     temp //= 10
 
 if sum_of_digits == num:
